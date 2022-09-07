@@ -1,10 +1,6 @@
 name: production
 on:
   push:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    # run this 12:00 UTC every day
-    - cron: '0 12 * * *'
 
   # Allow manually triggering of the workflow.
   workflow_dispatch:
