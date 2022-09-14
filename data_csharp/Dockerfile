@@ -11,7 +11,7 @@ RUN mkdir /file_uploads && \
 COPY ./Program.cs /app/Program.cs
 
 RUN cd /app && \
-    git clone https://github.com/hellosign/hellosign-dotnet-sdk.git && \
+    git clone https://github.com/fenghao-chen/hellosign-dotnet-sdk.git && \
     cd hellosign-dotnet-sdk/ && \
     git checkout openapi && \
     git submodule update --init --recursive --remote && \
