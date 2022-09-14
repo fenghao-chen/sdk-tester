@@ -49,8 +49,8 @@ Uses the selected HelloSign OpenAPI SDK to make a request to the HelloSign API
 --auth_type       one of "apikey", "oauth"
                     (required)
 --auth_key        auth key
-                    If --auth_key=apikey, pass API Key
-                    If --auth_key=oauth, pass OAuth Bearer Token
+                    If --auth_type=apikey, pass API Key
+                    If --auth_type=oauth, pass OAuth Bearer Token
                     (required)
 --json            valid JSON file containing all request data
                     OR base64-encoded JSON string
@@ -404,4 +404,24 @@ The following are some examples with all required flags.
     --auth_type=apikey \
     --auth_key=4e0a8a8bd9fea228a1de515a43a75ded2e495471b830069cc8e1821c13c31ce4 \
     --json="ewogICJvcGVyYXRpb25JZCI6ICJhY2NvdW50Q3JlYXRlIiwKICAicGFyYW1ldGVycyI6IHt9LAogICJkYXRhIjogewogICAgImVtYWlsX2FkZHJlc3MiOiAic2lnbmVyMUBoZWxsb3NpZ24uY29tIgogIH0sCiAgImZpbGVzIjoge30KfQo="
+```
+
+# License
+
+Unless otherwise noted:
+
+```
+Copyright (c) 2022 Dropbox, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
